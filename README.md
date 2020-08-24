@@ -1,2 +1,28 @@
-# web_lotto_number_generator
-little project for students to learn programming - random numbers, string concatenation, sorting and storing numbers in arraya, reverse iteration through array with for-loop, use do-while-loop, saving, displaying corrent in webbroser, update display in interval
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version 1.0
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact

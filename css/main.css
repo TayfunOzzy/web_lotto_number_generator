@@ -1,0 +1,122 @@
+#lottoContainer{
+    position: relative;
+    border: 2px solid #333;
+    padding: 5px;
+    width: 535px;
+    height: 300px;
+    background-color: #efefef;
+}
+
+.windowContainer{
+    background-color: #347c48;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 530px;
+    height: 73px;
+}
+
+#displayTipps{
+    position: relative;
+    background-color: #ffffff;
+    top: 5px;
+    width: 70%;
+    height: 210px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#newLottoTipp{
+    position: relative;
+    background-color: #5ce080;
+    top: 5px;
+    width: 29%;
+    font-size: 40px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    float: right;
+}
+
+.clearFloat{
+    clear: both;
+}
+
+
+.zahl{
+    position: relative;
+    background-color: #eaeaea;
+    margin-top: 7px;
+    margin-left: 7px;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 3em;
+    color: #336600;
+    width: 14%;
+    height: auto;
+    text-align: center;
+}
+
+
+.oneLineContainer{
+    border: 0px solid #333;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 318px;
+    height: 47px;
+}
+
+/*.oneLine{
+    display: inline-block;
+    border: 1px solid #7e0000;
+    font-size: 250%;
+    text-align: center;
+    padding: 0px 3px 0px 3px;
+    margin-left: 0px;
+    margin-right: -1px;
+    width: 13%;
+}*/
+
+.oneLine{
+    display: inline-block;
+    border: 1px solid #5f5f5f;
+    background-color: #a0e394;
+    border-radius: 2px;
+    font-size: 250%;
+    text-align: center;
+    margin-right: 0px;
+    width: 44px;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    
+    #lottoContainer{
+        width: 100%;
+    }
+    
+
+    .windowContainer{
+        border: 2px solid #333;
+        border-radius: 5px;
+        width: 100%;
+        height: auto;
+        padding-bottom: 5px;
+    }
+    
+    .zahl{
+        position: relative;
+        margin-top: 7px;
+        margin-left: 4px;
+        display: inline-block;
+        border: 1px solid #333;
+        border-radius: 5px;
+        font-size: 3em;
+        width: 14%;
+        height: auto;
+        text-align: center;
+    }
+}
